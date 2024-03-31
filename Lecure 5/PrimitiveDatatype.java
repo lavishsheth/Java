@@ -1,22 +1,24 @@
-public class PrimitiveDatatype {
-    public static void main(String args[]){
-        int number=10;
-        System.out.println("here is my number:- "+number);
+class PrimitiveDatatype{
+public static void main(String args[]){
+    int i = 1234567890;
+    System.out.println("Here is my Integer Value:- "+i);
 
-        float f = 2.0211111111111111111111f;
-        System.out.println("here is my float value: "+f);
+    long l = 1234567890123412334L;
+    System.out.println("Here is my Long Value:- "+l);
 
-        double d = 2.0211111111111111111111;
-        System.out.println("here is my double value: "+d);
+    float f = 2.0202020202020202002020202020f;
+    System.out.println("Here is my Float Value:- "+f);
 
-        long l = 1234567991011L;
-        System.out.println("here is my long value:- "+l);
+    Double d= 2.0202020202020202002020202020;
+    System.out.println("Here is my Double Value:- "+d);
 
-        char c = 'A';
-        System.out.println("here is my character value:- "+c);
+    char c = 'A';
+    System.out.println("Here is my Character Value:- "+c);
 
-        boolean b = true;
-        System.out.println("here is my boolean value:- "+b);
+    Boolean b =false;
+    System.out.println("Here is my Boolean Value:- "+b);
 
-    }
+
+
+}
 }
